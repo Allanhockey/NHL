@@ -48,7 +48,7 @@
                         <label for="num-label" class="right inline"><b>Number</b></label>
                             </div>
                             <div class="small-9 columns">
-                                <input class="inscriptionProgressRequis" type="text" id="number-label" name="number" placeholder="Your number">
+                                <input class="inscriptionProgressRequis" type="number" id="number-label" name="number" placeholder="Your number" min='1'>
                                 <span id="erreurnumber" style="color:red;"></span>
                             </div>
                    
@@ -56,7 +56,7 @@
                             <label for="CP-label" class="right inline"><b>Postal code</b></label>
                             </div>
                             <div class="small-9 columns">
-                                  <input class="inscriptionProgressRequis" type="text" id="cp-label" name="CP" placeholder="Your postal code">
+                                  <input class="inscriptionProgressRequis" type="number" id="cp-label" name="CP" placeholder="Your postal code">
                                 <span id="erreurcp" style="color:red;"></span>
                             </div> 
                     

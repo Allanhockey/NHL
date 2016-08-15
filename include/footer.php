@@ -21,7 +21,7 @@
                                         <a href="https://www.facebook.com/NHL/?fref=ts&rf=111865345505695">
                                             <i class="fa fa-5x fa-fw fa-facebook"></i>
                                         </a> </div><div class="col-xs-3 text-center"> 
-                                    <a href="https://github.com/Allanhockey/NHL_shop"><i class="fa fa-5x fa-fw fa-github"></i>
+                                    <a href="https://github.com/Allanhockey/NHL"><i class="fa fa-5x fa-fw fa-github"></i>
                                     </a> 
                                     </div>
                                 </div>

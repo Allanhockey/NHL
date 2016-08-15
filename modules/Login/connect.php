@@ -3,6 +3,10 @@ $usertoconnect = new UserBD($db);
 $user=array();    
 $user=$usertoconnect->verifConnect($_POST["email"],$_POST["password"]);
 
+//SECURISATION MD5
+//$user=$usertoconnect->verifConnect($_POST["email"],md5($_POST["password"]));
+
+
 if($user!=null){
    
    

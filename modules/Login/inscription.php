@@ -51,6 +51,8 @@ $erreurTab = array();
         $users = new UserBD($db);
         $users->setAll($_POST["nom"], $_POST["prenom"], $_POST["email"], $_POST["password"], $_POST["number"], $_POST["street"],$_POST["ville"],$_POST["CP"],$_POST["tel"]);
                 
+        // SECURISATION MD5
+//    $users->setAll($_POST["nom"], $_POST["prenom"], $_POST["email"], md5($_POST["password"]), $_POST["number"], $_POST["street"],$_POST["ville"],$_POST["CP"],$_POST["tel"]);
 
         $users->createUser();
         $inscription = true;
@@ -61,6 +63,7 @@ $erreurTab = array();
 <?php
 if($inscription){
      echo '<center><div class ="col-md-6 col-md-offset-3"><div class="alert alert-success">' . "Sign In valided" . '</div></div></center>';
+     
 }
 
 else{
